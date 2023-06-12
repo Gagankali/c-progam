@@ -93,3 +93,21 @@ int main(){
   printf("Reverse no is %d ",rev);
   return 0;
 }. */
+
+
+/*#include<stdio.h>
+int main(){ 
+  int n,b,d=0,base=1,rem;
+  printf("Enter the binary no \n");
+  scanf("%d",&n);
+  while(n>0)
+    {
+      rem=n%10;
+      d=d+rem*base;
+      n=n/10;
+      base=base*2;
+    }
+  printf("%d is decimal value = %d ",b,d);
+
+  return 0;
+}. */
